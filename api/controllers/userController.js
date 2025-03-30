@@ -1,4 +1,4 @@
-import { createUser, getUserByEmail, getUserById, updateUser, deleteUser, getAllUsers } from '../models/userModel.js';
+import { createUser, getUserByEmail, getUserById, updateUser, deleteUser, getAllUsers } from '../Utils/userUtils.js';
 
 export const createUserController = async (req, res) => {
     try {
